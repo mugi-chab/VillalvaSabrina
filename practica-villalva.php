@@ -26,16 +26,16 @@ return $a + $b;
 }
 
 /**
-* Calcula el area de un cuadrado.
+* Calcula el perimetro de un cuadrado.
 *
-* Multiplica lado por lado
+* Multiplica lado por 4
 *
-* @param float $lado dLado del cuadrado.
-* @return float Area calculada.
+* @param float $lado Lado del cuadrado.
+* @return float Perimetro calculado.
 * @internal Metodo para pruebas internas.
 */
-function calcularArea($lado)
+function calcularPerimetro($lado)
 {
-return $lado * $lado;
+return $lado * 4;
 }
 ?>
